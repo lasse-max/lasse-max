@@ -1,8 +1,4 @@
-<!--
-  GitHub profile README for github.com/lasse-max
-  Lives in a repo named exactly `lasse-max` (the special profile repo), file README.md.
-  NOTE: do not add the workers.dev dev back door anywhere public.
--->
+
 
 # Lasse — building **Layline**
 
