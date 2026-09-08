@@ -37,15 +37,24 @@ The companion app turns those recommendations into action: clear fit bands help 
 
 **Live and in active testing.** The next ambition is an open-source setup that lets other candidates configure and run a search around their own goals.
 
-**Demo access:** the operational application is owner-only because it contains personal job-search data. A public walkthrough using sample data is planned; screenshots and a short video have not been added yet.
+**Inside Sextant:** app screenshots captured on 8 September 2026. Counts and recommendations are snapshots of the displayed runs. The operational app remains owner-only because it contains personal job-search data.
 
-<!-- Add public demonstration assets here when ready. Suggested sequence:
-1. Opportunity list, showing a small set of sample recommendations.
-2. Role detail, showing evidence, fit, and limitations.
-3. Shortlist and application tracker, showing the next action.
-Optional: a 60–90 second narrated walkthrough.
-Keep these assets in this public profile repository if the working Sextant repository is private.
--->
+![Sextant scan overview showing 7,527 postings and recommendations grouped into apply, consider and stretch](assets/sextant/scan-overview.png)
+
+*From the scanned catalog to a prioritised set of opportunities.*
+
+![Sextant ranked roles with fit scores, company tiers, feasibility, confidence and review actions](assets/sextant/ranked-matches.png)
+
+*Fit, feasibility and company priority stay visible while deciding which roles deserve attention.*
+
+<details>
+<summary>See the search profile</summary>
+
+![Sextant profile showing configured target role families, seniority criteria and source coverage](assets/sextant/search-profile.png)
+
+*Inspect the criteria behind the search. This profile view is read-only; changes are made through configuration.*
+
+</details>
 
 **Built with:** Python, Claude, Next.js, TypeScript, Supabase Postgres, GitHub Actions, Resend, and Vercel.
 
