@@ -37,7 +37,7 @@ The companion app turns those recommendations into action: clear fit bands help 
 
 **Live and in active testing.** The next ambition is an open-source setup that lets other candidates configure and run a search around their own goals.
 
-**Inside Sextant:** app screenshots captured on 8 September 2026. Counts and recommendations are snapshots of the displayed runs. The operational app remains owner-only because it contains personal job-search data.
+**Inside Sextant:** app screenshots captured on 8 September 2026, plus an email excerpt from 4 September. Counts and recommendations are snapshots of the displayed runs. The operational app remains owner-only because it contains personal job-search data.
 
 ![Sextant scan overview showing 7,527 postings and recommendations grouped into apply, consider and stretch](assets/sextant/scan-overview.png)
 
@@ -48,11 +48,15 @@ The companion app turns those recommendations into action: clear fit bands help 
 *Fit, feasibility and company priority stay visible while deciding which roles deserve attention.*
 
 <details>
-<summary>See the search profile</summary>
+<summary>See the search profile and email digest</summary>
 
 ![Sextant profile showing configured target role families, seniority criteria and source coverage](assets/sextant/search-profile.png)
 
 *Inspect the criteria behind the search. This profile view is read-only; changes are made through configuration.*
+
+![Sextant email digest excerpt showing the scan summary, source issue count and a scored recommendation](assets/sextant/email-digest.png)
+
+*The inbox digest brings together scan results, source-health signals and an explanation of role fit. This excerpt omits the email headers and personal eligibility details.*
 
 </details>
 
