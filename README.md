@@ -1,17 +1,8 @@
 # Lasse
 
-I build products that help people make decisions: what to watch together, which job opportunities deserve attention, and what to do next.
+I build products that help people make decisions.
 
-**Layline** is the home for that work. In sailing, a layline is the course from which you can reach the next mark without another tack. I use that idea as a product principle: define the destination, understand the constraints, and make the next decision easier.
-
-## Selected work
-
-| Product | The decision it helps with | Status |
-|---|---|---|
-| [Movie Match](https://movie-match-rho.vercel.app) | Turn the search for a film into part of the fun of movie night. | Beta 1.9 · focused user testing |
-| [Sextant](#sextant) | Find relevant roles early and spend more time preparing to land them. | Live · active testing |
-
-### Movie Match
+## Movie Match
 
 **Bring the fun back to movie night.**
 
@@ -25,7 +16,7 @@ Movie Match brings the search across streaming services into a playful game for 
 
 **Built with:** Next.js, React, TypeScript, Claude, TMDB, and Vercel.
 
-### Sextant
+## Sextant
 
 **Find the right roles early. Put your time into landing them.**
 
@@ -64,16 +55,8 @@ The companion app turns those recommendations into action: clear fit bands help 
 
 ## How I work
 
-I use AI assistants for implementation and review, with separate building and reviewing roles. My focus is the product problem, the user experience, the tradeoffs, and the evidence that a change improves the result.
-
-- **Give models a bounded task.** Use them to interpret preferences or explain fit; keep factual checks and permissions in application code.
-- **Test the difficult cases.** Divergent tastes, weak job matches, missing data, and failed external services reveal more than a smooth demonstration.
-- **Keep people in control.** Make the recommendation understandable and leave consequential decisions with the user.
-
-## Ideas for the future
-
-LineupIQ, Invoice Genie, Portfolio Dispatch, and Dead Reckoning are ideas I plan to revisit. They are set aside for now while I focus on testing and developing Movie Match and Sextant.
+I define the product requirements, shape the user experience, and test the results. I use AI assistants for implementation and review.
 
 ## Contact
 
-[Email me](mailto:lassekrgr@gmail.com) about the products, their design decisions, or opportunities to build useful tools.
+[Email](mailto:lassekrgr@gmail.com)
