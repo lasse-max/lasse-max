@@ -14,6 +14,14 @@ Movie Match brings the search across streaming services into a playful game for 
 
 [Try the beta](https://movie-match-rho.vercel.app) · [Explore the product and code](https://github.com/lasse-max/movie-match)
 
+<p>
+  <img src="assets/movie-match/setup.jpg" width="220" alt="Movie Match setup: choose a region and streaming services" />
+  <img src="assets/movie-match/swipe.jpg" width="220" alt="Movie Match swipe round: react to a film with Not it, Not sure or This vibe" />
+  <img src="assets/movie-match/match.jpg" width="220" alt="Movie Match result: a shared film choice with a streaming link and alternatives" />
+</p>
+
+*Choose your services, react to films, and find a match. Screens supplied on 30 September 2026; titles and availability reflect the sessions shown.*
+
 **Built with:** Next.js, React, TypeScript, Claude, TMDB, and Vercel.
 
 ## Sextant
@@ -28,22 +36,14 @@ The companion app turns those recommendations into action: clear fit bands help 
 
 **Live and in active testing.** The next ambition is an open-source setup that lets other candidates configure and run a search around their own goals.
 
-**Inside Sextant:** app screenshots captured on 8 September 2026, plus an email excerpt from 4 September. Counts and recommendations are snapshots of the displayed runs. The operational app remains owner-only because it contains personal job-search data.
+**Inside Sextant:** an app screenshot captured on 8 September 2026, plus an email excerpt from 4 September. Counts and recommendations are snapshots of the displayed runs. The operational app remains owner-only because it contains personal job-search data.
 
 ![Sextant scan overview showing 7,527 postings and recommendations grouped into apply, consider and stretch](assets/sextant/scan-overview.png)
 
 *From the scanned catalog to a prioritised set of opportunities.*
 
-![Sextant ranked roles with fit scores, company tiers, feasibility, confidence and review actions](assets/sextant/ranked-matches.png)
-
-*Fit, feasibility and company priority stay visible while deciding which roles deserve attention.*
-
 <details>
-<summary>See the search profile and email digest</summary>
-
-![Sextant profile showing configured target role families, seniority criteria and source coverage](assets/sextant/search-profile.png)
-
-*Inspect the criteria behind the search. This profile view is read-only; changes are made through configuration.*
+<summary>See the email digest</summary>
 
 ![Sextant email digest excerpt showing the scan summary, source issue count and a scored recommendation](assets/sextant/email-digest.png)
 
@@ -52,6 +52,14 @@ The companion app turns those recommendations into action: clear fit bands help 
 </details>
 
 **Built with:** Python, Claude, Next.js, TypeScript, Supabase Postgres, GitHub Actions, Resend, and Vercel.
+
+## Training Coach
+
+A personal workout tracker that uses logged sets to calculate the next session’s exercises, reps and load targets. Built for use on a phone, with offline session logging and progress tracking.
+
+**In development.** The core tracker is implemented; deployment and reliability work are still in progress.
+
+**Built with:** Python, FastAPI, JavaScript, Supabase Postgres, and Vercel.
 
 ## How I work
 
