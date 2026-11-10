@@ -46,7 +46,7 @@ Movie Match brings the search across streaming services into a playful game for 
 <p>
   <img src="assets/movie-match/setup.jpg" width="220" alt="Movie Match setup: choose a region and streaming services" />
   <img src="assets/movie-match/swipe.jpg" width="220" alt="Movie Match swipe round: react to a film with Not it, Not sure or This vibe" />
-  <img src="assets/movie-match/match.jpg" width="220" alt="Movie Match result: a shared film choice with a streaming link and alternatives" />
+  <img src="assets/movie-match/match.jpg" width="220" alt="Movie Match result: the film you both picked, with its match score and where to watch it" />
 </p>
 
 *Choose your services, react to films, and find a match. Screens supplied on 30 September 2026; titles and availability reflect the sessions shown.*
