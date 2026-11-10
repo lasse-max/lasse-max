@@ -37,11 +37,22 @@ The companion app turns those recommendations into action: clear fit bands help 
 
 You sit down together to watch a film. Half an hour later, you're still switching apps, scrolling past recommendations, and asking, “What about this one?” Each service offers a different slice of the film catalog and a different idea of what you might like. Choosing becomes the evening.
 
-Movie Match brings the search across streaming services into a playful game for two people sharing one phone. Recommendations start with **tonight's mood and the person beside you**. In a game designed to take under three minutes, you choose your moods, react to films, and discover a shortlist of up to five recommendations, with the services where you can watch them.
+Movie Match brings the search across streaming services into a playful game for two people sharing one phone. Recommendations start with **tonight's mood and the person beside you**. In a game designed to take under three minutes, you choose your moods, react to films, and pick from a shortlist of films you can stream tonight. You land on one you both picked, with where to watch it.
 
-**Now in beta 1.9:** focused user testing is generating strong early feedback as the product moves towards launch.
+https://github.com/user-attachments/assets/2f0a2710-3e80-4398-8917-0559a1a69a93
 
-[Try the beta](https://movie-match-rho.vercel.app) · [Explore the product and code](https://github.com/lasse-max/movie-match)
+*The 2.0 video, 61 s with sound: a full game with two demo players, and what happens behind the scenes.*
+
+**Behind the scenes**
+
+- **Your taste, mapped.** Over 15,000 films are stored as embeddings. Each player's likes become a taste fingerprint, and the search looks near both of you, including where your tastes meet.
+- **Built for both of you.** AI plans the search from both players' moods and ranks both lists together, so a match isn't left to luck.
+- **Only what you can stream.** Every film is checked in code against your services in your region. The AI never decides availability.
+- **Tested before it ships.** Matching changes run against 17 frozen test couples and an independent AI judge, with the pass bars committed before each run. When a bar fails, the [results](https://github.com/lasse-max/movie-match/blob/main/eval/e4-results.md) say so.
+
+**Now in beta, with 2.0 rolling out:** catalogue search went live on 7 November 2026. Focused user testing is generating strong early feedback as the product moves towards launch.
+
+[Try the beta](https://movie-match-rho.vercel.app) · [See how it works](https://github.com/lasse-max/movie-match)
 
 <p>
   <img src="assets/movie-match/setup.jpg" width="220" alt="Movie Match setup: choose a region and streaming services" />
@@ -49,10 +60,9 @@ Movie Match brings the search across streaming services into a playful game for 
   <img src="assets/movie-match/match.jpg" width="220" alt="Movie Match result: the film you both picked, with its match score and where to watch it" />
 </p>
 
-*Choose your services, react to films, and find a match. Screens supplied on 30 September 2026; titles and availability reflect the sessions shown.*
+*Screens from a demo game on the live beta on 10 November 2026, with two made-up players. Titles and availability reflect that session.*
 
-**Built with:** Next.js, React, TypeScript, Claude, TMDB, and Vercel.
-
+**Built with:** Next.js, React, TypeScript, Tailwind CSS, Claude, OpenAI embeddings, Supabase Postgres with pgvector, TMDB, and Vercel.
 
 ## Training Coach
 
