@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/2f0a2710-3e80-4398-8917-0559a1a69a93
 
 *Screens from a demo game on the live beta on 10 November 2026, with two made-up players. Titles and availability reflect that session.*
 
-**Built with:** Next.js, React, TypeScript, Tailwind CSS, Claude, OpenAI embeddings, Supabase Postgres with pgvector, TMDB, and Vercel.
+**Built with:** Next.js, React, TypeScript, Tailwind CSS, Claude, embeddings, Supabase Postgres with pgvector, TMDB, and Vercel.
 
 ## Training Coach
 
