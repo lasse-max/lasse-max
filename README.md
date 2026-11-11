@@ -66,11 +66,34 @@ https://github.com/user-attachments/assets/be84b714-1a61-46d8-9c54-121669633c9f
 
 ## Training Coach
 
-A personal workout tracker that uses logged sets to calculate the next session’s exercises, reps and load targets. Built for use on a phone, with offline session logging and progress tracking.
+**Your next session, ready when you walk into the gym.**
 
-**In development.** The core tracker is implemented; deployment and reliability work are still in progress.
+Last week's notes say “leg press 10, 8, 8”. At the gym, you work out what to lift today, whether the weight should go up, and which day comes next, with one thumb between sets.
 
-**Built with:** Python, FastAPI, JavaScript, Supabase Postgres, and Vercel.
+Training Coach works it out from what you logged. It opens on the next session in the rotation with every exercise, set, rep and load filled in. One tap logs a set as planned. After you save, it shows what each lift did and what changes next time. It keeps working with no signal.
+
+https://github.com/user-attachments/assets/220eb4dc-73b1-4a4c-9367-baf630495d7f
+
+*30 s with sound: one session with a made-up demo user, how the loads are worked out, and what's planned next.*
+
+**Behind the scenes**
+
+- **Rules set every number, not AI.** A rule engine works out every exercise, set, rep and load from the logged sets. On the big lifts, 10 reps on every set means the load goes up next time. A test fails if the engine ever imports the AI or integration code, so today's plan never waits on either.
+- **Works with no signal.** The app opens on the last plan it fetched, and a save waits on the phone until it can sync.
+- **Made for one thumb.** One exercise fills the screen with the load as a big number, and the button that logs the set as planned sits under your thumb.
+- **Reviewed before launch.** An independent AI reviewer, a different model from the one that writes the code, checked it seven times and found 19 blockers, among them an offline save that reported success while dropping the workout. The suite now has 730 tests.
+
+**Live since 2 November 2026, for my own training.** Next on the roadmap: an AI coach that reviews each session and each week and suggests changes I accept or decline, then Whoop recovery, sleep and strain beside the training, and later runs from Strava. The app and its repo are private because they hold my training data. Walkthrough on request.
+
+<p>
+  <img src="assets/training-coach/today-next-session.jpg" width="220" alt="Training Coach Today screen: Day C, Legs, next in the rotation because Day B was done on 9 Nov, with a Start Day C button" />
+  <img src="assets/training-coach/log-a-set.jpg" width="220" alt="Training Coach session: leg press filling the screen with 218 kg, set 1 ticked and a button to log set 2 as planned" />
+  <img src="assets/training-coach/review-after-save.jpg" width="220" alt="Training Coach review after saving: 8 of 8 hit, each exercise as done and the load set for next time" />
+</p>
+
+*Screens from a made-up demo user with four weeks of invented sessions, run locally. No real training data.*
+
+**Built with:** Python, FastAPI, Supabase Postgres, a vanilla JavaScript PWA, and Vercel.
 
 ## How I work
 
