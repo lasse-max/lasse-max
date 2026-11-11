@@ -76,13 +76,13 @@ Last week's notes say “leg press 10, 8, 8”. At the gym, you work out what to
 
 Training Coach works it out from what you logged. It opens on the next session in the rotation with every exercise, set, rep and load filled in. One tap logs a set as planned. After you save, it shows what each lift did and what changes next time. It keeps working with no signal.
 
-https://github.com/user-attachments/assets/220eb4dc-73b1-4a4c-9367-baf630495d7f
+https://github.com/user-attachments/assets/9245338c-6b13-4dbf-b567-e215e445b89c
 
-*30 s with sound: one session with a made-up demo user, how the loads are worked out, and what's planned next.*
+*30 s with sound: a session with a made-up demo user, where Progress shows you're behind, and the AI coach planned next, shown as a labelled mock-up.*
 
 **Behind the scenes**
 
-- **Rules set every number, not AI.** A rule engine works out every exercise, set, rep and load from the logged sets. On the big lifts, 10 reps on every set means the load goes up next time. A test fails if the engine ever imports the AI or integration code, so today's plan never waits on either.
+- **Every session sets up the next.** The app works out every exercise, set, rep and load from what you logged. On the big lifts, 10 reps on every set means the load goes up next time. A test fails if the engine ever imports the AI or integration code, so today's plan never waits on either.
 - **Works with no signal.** The app opens on the last plan it fetched, and a save waits on the phone until it can sync.
 - **Made for one thumb.** One exercise fills the screen with the load as a big number, and the button that logs the set as planned sits under your thumb.
 - **Reviewed before launch.** An independent AI reviewer, a different model from the one that writes the code, checked it seven times and found 19 blockers, among them an offline save that reported success while dropping the workout. The suite now has 730 tests.
