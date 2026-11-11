@@ -35,13 +35,13 @@ The companion app turns those recommendations into action: clear fit bands help 
 
 **Bring the fun back to movie night.**
 
+<a href="https://github.com/lasse-max/movie-match"><img src="assets/movie-match/full-game.gif" width="800" alt="One full game of Movie Match on a phone: both players pick moods, pass the phone, react to films, pick finalists, and land on a film they both picked with where to watch it" /></a>
+
+*One full game on the live beta with two demo players. The two AI waits are cut and the swipes are sped up. The 2.0 video with sound is further down.*
+
 You sit down together to watch a film. Half an hour later, you're still switching apps, scrolling past recommendations, and asking, “What about this one?” Each service offers a different slice of the film catalog and a different idea of what you might like. Choosing becomes the evening.
 
 Movie Match brings the search across streaming services into a playful game for two people sharing one phone. Recommendations start with **tonight's mood and the person beside you**. In a game designed to take under three minutes, you choose your moods, react to films, and pick from a shortlist of films you can stream tonight. You land on one you both picked, with where to watch it.
-
-https://github.com/user-attachments/assets/be84b714-1a61-46d8-9c54-121669633c9f
-
-*The 2.0 video, 61 s with sound: a full game with two demo players, and what happens behind the scenes.*
 
 **Behind the scenes**
 
@@ -61,6 +61,10 @@ https://github.com/user-attachments/assets/be84b714-1a61-46d8-9c54-121669633c9f
 </p>
 
 *Screens from a demo game on the live beta on 10 November 2026, with two made-up players. Titles and availability reflect that session.*
+
+https://github.com/user-attachments/assets/be84b714-1a61-46d8-9c54-121669633c9f
+
+*The 2.0 video, 61 s with sound: a full game with two demo players, and what happens behind the scenes.*
 
 **Built with:** Next.js, React, TypeScript, Tailwind CSS, Claude, embeddings, Supabase Postgres with pgvector, TMDB, and Vercel.
 
