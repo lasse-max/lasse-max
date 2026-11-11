@@ -76,9 +76,9 @@ Last week's notes say “leg press 10, 8, 8”. At the gym, you work out what to
 
 Training Coach works it out from what you logged. It opens on the next session in the rotation with every exercise, set, rep and load filled in. One tap logs a set as planned. After you save, it shows what each lift did and what changes next time. It keeps working with no signal.
 
-https://github.com/user-attachments/assets/9245338c-6b13-4dbf-b567-e215e445b89c
+https://github.com/user-attachments/assets/4937f4e7-7543-4f5d-b906-cff28d78b1d0
 
-*30 s with sound: a session with a made-up demo user, where Progress shows you're behind, and the AI coach planned next, shown as a labelled mock-up.*
+*Sound on: GitHub starts it muted. 30 s: a session with a made-up demo user, where Progress shows you're behind, and what's planned next: the AI coach (a labelled mock-up), Whoop and Strava.*
 
 **Behind the scenes**
 
